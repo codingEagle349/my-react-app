@@ -15,7 +15,7 @@ function AboutMe() {
     <>
       <img className="avatar" src="smoke-avatar.png" />
       <h1>About Me</h1>
-      <p>Hello there.<br />How do you do?</p>
+      <p>Hello there. I am Qadeer Rizvi a Python Developer learning ReactJs.<br />How do you do?</p>
     </>
   )
 }
