@@ -1,3 +1,5 @@
+import LoginPage  from "./screens/login";
+
 const user =  {
   name: 'Hedy Lamarr',
   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
@@ -5,19 +7,12 @@ const user =  {
 };
 
 
-export default function Profile(){
+function App(){
   return (
     <>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={"Photo of" + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
+      <LoginPage />
     </>
   );
 }
+
+export default App;
