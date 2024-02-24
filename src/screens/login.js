@@ -29,7 +29,7 @@ function LoginPage() {
         </div>
       ) : (
         <form onSubmit={handleLogin}>
-          <div>let content;
+          <div>
             <label>Username:</label>
             <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
           </div>
