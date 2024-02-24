@@ -1,13 +1,13 @@
-import LoginPage  from "./screens/login";
+import LoginPage from "./screens/login";
 
-const user =  {
+const user = {
   name: 'Hedy Lamarr',
   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
   imageSize: 90,
 };
 
 
-function App(){
+function App() {
   return (
     <>
       <LoginPage />

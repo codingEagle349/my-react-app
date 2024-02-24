@@ -24,11 +24,12 @@ function LoginPage() {
       {loggedIn ? (
         <div>
           <p>Welcome, {username}!</p>
+          <p>It's great to find you here.</p>
           {/* Add logout button here */}
         </div>
       ) : (
         <form onSubmit={handleLogin}>
-          <div>
+          <div>let content;
             <label>Username:</label>
             <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
           </div>
